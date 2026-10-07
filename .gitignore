@@ -10,3 +10,7 @@ __pycache__/
 *.pbix.bak
 .DS_Store
 Thumbs.db
+
+# Données (régénérables)
+data/raw/*.csv
+data/clean/*.csv
