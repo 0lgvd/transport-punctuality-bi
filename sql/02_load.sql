@@ -1,0 +1,11 @@
+USE SCHEMA TRANSPORT_BI.RAW;
+
+COPY INTO REGULARITE_RAW
+  FROM @STG_REGULARITE
+  FILES = ('regularite_tgv_clean.csv')
+  ON_ERROR = 'ABORT_STATEMENT';
+
+-- Contrôles de chargement
+SELECT COUNT(*) AS nb_lignes FROM REGULARITE_RAW;             
+SELECT qualite_ok, COUNT(*) FROM REGULARITE_RAW GROUP BY 1;     
+SELECT MIN(mois), MAX(mois) FROM REGULARITE_RAW;
