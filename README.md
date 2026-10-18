@@ -2,7 +2,7 @@
 
 Projet personnel illustrant une chaîne data complète : nettoyage (ETL), contrôle qualité, modélisation en étoile sous Snowflake, et dashboard Power BI.
 
-![Dashboard](docs/img/dashboard.png)
+![Dashboard](docs/img/Dashboard.png)
 
 ## Besoin métier (fictif)
 
