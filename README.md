@@ -1,4 +1,4 @@
-# Ponctualité du TGV : projet BI de bout en bout
+# Ponctualité du TGV 
 
 Projet personnel illustrant une chaîne data complète : nettoyage (ETL), contrôle qualité, modélisation en étoile sous Snowflake, et dashboard Power BI.
 
