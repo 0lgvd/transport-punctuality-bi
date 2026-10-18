@@ -39,7 +39,7 @@ Le script `python/clean_data.py` ne supprime aucune ligne : il **marque** les an
 
 ## Modèle de données (schéma en étoile)
 
-[Model](docs/img/model_view.png)
+![Model](docs/img/model_view.png)
 
 - `FACT_REGULARITE` : circulations prévues, annulées, effectives ; retards au départ et à l'arrivée ; retards > 15, 30 et 60 min ; retards totaux (moyenne × circulations effectives, pour des agrégations pondérées correctes)
 - `DIM_DATE`, `DIM_SERVICE`.
